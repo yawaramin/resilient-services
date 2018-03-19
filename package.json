@@ -1,0 +1,25 @@
+{
+  "name": "resilient-services",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "postinstall": "npm link bs-platform"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonML",
+    "OCaml"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "bs-platform": "^2.2.2"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^1.1.3",
+    "bs-express": "^0.4.1",
+    "reason-nact": "^2.0.1"
+  }
+}

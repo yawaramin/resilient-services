@@ -1,0 +1,21 @@
+{
+  "name": "resilient-services",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@glennsl/bs-json", "bs-express", "reason-nact"
+  ],
+  "warnings": {
+    "error" : "+5+8+101"
+  },
+  "namespace": true,
+  "refmt": 3
+}
